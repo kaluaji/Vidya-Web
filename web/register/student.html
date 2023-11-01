@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student.css"> 
+    <title>Student Registration</title>
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Student Registration</h2>
+        <form id="registration-form">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="class">Current Class:</label>
+                    <input type="number" id="class" name="class" required>
+                </div>
+                <div class="input-group">
+                    <label for="preferred_language">Preferred Language:</label>
+                    English<input type="radio" id="preferred_language" name="preferred_language" required checked>Hindi<input type="radio" id="preferred_language" name="preferred_language" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Account Information</legend>
+                <div class="input-group">
+                    <label for="email">Guardian's Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>                
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </fieldset>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

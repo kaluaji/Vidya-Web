@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="teacher.css"> 
+    <title>Teacher Registration</title>
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Teacher Registration</h2>
+        <form id="registration-form">
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class="input-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required>
+                </div>
+                <div class="input-group">
+                    <label for="experience">Years of Experience:</label>
+                    <input type="number" id="experience" name="experience" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Account Information</legend>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>                
+                <div class="input-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </fieldset>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
